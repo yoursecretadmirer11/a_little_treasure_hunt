@@ -305,7 +305,14 @@ export default function Home() {
               figure it out. So put on your detective hat, grab a magnifying
               glass, and get to searching! The mystery is yours to solve. 🕵️‍♀️✨
             </p>
-
+            <p className="text-sm sm:text-base text-gray-700">
+              On a serious note, if this is where the game ends for you, thank
+              you so much for playing along. 💌 I truly hope you had as much fun
+              solving it as I did putting it together. Whether you choose to
+              uncover the mystery or not, just know this was made with a lot of
+              thought and a little bit of silliness—just for you. Thank you for
+              being part of it. ✨
+            </p>
             <FoundCodes
               currentLevel={gameData.codes.length}
               codes={gameData.codes}
