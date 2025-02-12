@@ -206,8 +206,8 @@ export default function Home() {
                 Are you sure you want to give up? Like, 100% sure-sure? Because
                 this is it—no take-backs, no do-overs, no ‘oops, I changed my
                 mind!’ Once you click that button, it’s game over. 🚫🔄 But hey,
-                no pressure! (Okay, maybe a little pressure.) So… what’ll it
-                be? Brave adventurer or… well, not? Choose wisely! ✨
+                no pressure! (Okay, maybe a little pressure.) So… what’ll it be?
+                Brave adventurer or… well, not? Choose wisely! ✨
                 <br />
                 <span className="text-sm italic mt-2 block">
                   (Like, for real. You won't be able to try again!)
@@ -326,8 +326,8 @@ export default function Home() {
               Are you sure you want to give up? Like, 100% sure-sure? Because
               this is it—no take-backs, no do-overs, no ‘oops, I changed my
               mind!’ Once you click that button, it’s game over. 🚫🔄 But hey,
-              no pressure! (Okay, maybe a little pressure.) So… what’ll it
-              be? Brave adventurer or… well, not? Choose wisely! ✨
+              no pressure! (Okay, maybe a little pressure.) So… what’ll it be?
+              Brave adventurer or… well, not? Choose wisely! ✨
               <br />
               <span className="text-sm italic mt-2 block">
                 (Like, for real. You won't be able to try again!)
@@ -412,11 +412,13 @@ export default function Home() {
               Congratulations! 🎉
             </h2>
             <p className="text-sm sm:text-base text-gray-700">
-              You've completed the Valentine's treasure hunt!
-              <br />
-              Your love has guided you through each clue,
-              <br />
-              Now here's my heart, forever true! ❤️
+              Congratulations, treasure hunter! 🎉 You’ve cracked the codes,
+              solved the puzzles, and made it to the end! Your prize? Well…
+              absolutely nothing. For now. 😉 But if you’re curious about who
+              your secret admirer is (and let’s be real, who wouldn’t be?),
+              you’ve got all the pieces you need to figure it out. So put on
+              your detective hat, grab a magnifying glass, and get to searching!
+              The mystery is yours to solve. 🕵️‍♀️✨
             </p>
           </div>
         )}
