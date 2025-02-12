@@ -1,10 +1,9 @@
 "use client";
 import { useState, useEffect } from "react";
-import Image from "next/image";
 
 const gameData = {
   clues: [
-    `Parlez-vous français? Or… maybe not? Five years should have been enough to learn it, but hey, we all have our blind spots. Though, if you’ve been paying attention, the teacher’s been talking to the walls this whole time—and who knows? They might just talk back.`,
+    `Parlez-vous français? Or… maybe not? Five years should have been enough to learn it, but hey, we all have our blind spots. Though, if you&apos;ve been paying attention, the teacher&apos;s been talking to the walls this whole time—and who knows? They might just talk back.`,
     "Some say the Great Wall of China is the greatest wall in the world. But I’d argue—nope, not even close! The real greatest wall is right here, adorned with the faces of literary legends like Ivan Vazov, Nikola Vaptsarov, and Peyo Yavorov. (Move over, China, we’ve got poets!) And if you look around, you might mistake this room for the Opera—thanks to all those student theatrical plays. Who needs Broadway when you’ve got… well, this?",
     "Integrals? Matrices? Vectors? Probabilities? What the frick is even happening here? 😂 I mean, at least math has the decency to be orange—because nothing says ‘fun’ like a color that screams, ‘Hey, I’m complicated but kinda cute!’ And let’s not forget the ultimate perk of math: if you survive this chaos, you might just become ridiculously rich.💸✨ Who knew numbers could be your ticket to a private island?",
     "Okay, okay, I might have fibbed a little about everything being on paper. But can you blame me? I’m just a little silly like that. 😋 Back on track now! The last code is hiding in a place where no one dares to tread—some say it’s haunted by a bunch of scary teachers. (Legends speak of their terrifying red pens, endless yapping sessions and worst of all - projects!) But hey, at least they’ve got… uhh… super boring computers? Silver lining: you can totally sneak in a browser game or two. And who knows? Maybe this time, Drive D (or whatever it’s called) will come to your rescue. Good luck, brave adventurer! 🕵️‍♀️✨",
@@ -182,7 +181,7 @@ export default function Home() {
             No worries! 😊
           </h2>
           <p className="text-gray-700 mb-4">
-            No judgement, we've been there! Maybe next time?
+            No judgement, we&apos;ve been there! Maybe next time?
             <br />
             <span className="text-sm italic mt-2 block">
               *awkwardly moonwalks away*
@@ -204,13 +203,14 @@ export default function Home() {
               </h3>
               <p className="text-gray-700">
                 Are you sure you want to give up? Like, 100% sure-sure? Because
-                this is it—no take-backs, no do-overs, no ‘oops, I changed my
-                mind!’ Once you click that button, it’s game over. 🚫🔄 But hey,
-                no pressure! (Okay, maybe a little pressure.) So… what’ll it be?
-                Brave adventurer or… well, not? Choose wisely! ✨
+                this is it—no take-backs, no do-overs, no &apos;oops, I changed
+                my mind!&apos; Once you click that button, it&apos;s game over.
+                🚫🔄 But hey, no pressure! (Okay, maybe a little pressure.) So…
+                what&apos;ll it be? Brave adventurer or… well, not? Choose
+                wisely! ✨
                 <br />
                 <span className="text-sm italic mt-2 block">
-                  (Like, for real. You won't be able to try again!)
+                  (Like, for real. You won&apos;t be able to try again!)
                 </span>
               </p>
               <div className="flex gap-3">
@@ -218,7 +218,7 @@ export default function Home() {
                   onClick={confirmAbort}
                   className="flex-1 bg-pink-600 text-white py-2 rounded-lg hover:bg-pink-700 transition-colors"
                 >
-                  Yes, I'm Sure
+                  Yes, I&apos;m Sure
                 </button>
                 <button
                   onClick={cancelAbort}
@@ -234,12 +234,12 @@ export default function Home() {
           className={`max-w-md w-full bg-white rounded-xl shadow-lg p-4 sm:p-8 mx-2 ${getTransitionClasses()}`}
         >
           <h1 className="text-2xl sm:text-3xl font-bold text-center text-pink-600 mb-4 sm:mb-6">
-            Valentine's Treasure Hunt 💝
+            Valentine&apos;s Treasure Hunt 💝
           </h1>
           <div className="space-y-3 sm:space-y-4 mb-6 sm:mb-8">
             <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
-              Welcome to this special Valentine's adventure! Here's what you
-              need to know:
+              Welcome to this special Valentine&apos;s adventure! Here&apos;s
+              what you need to know:
             </p>
             <ul className="list-disc list-inside space-y-1 sm:space-y-2 text-sm sm:text-base text-gray-700">
               <li>
@@ -251,8 +251,8 @@ export default function Home() {
               </li>
               <li>
                 Hint: Even though the website saves the current game state
-                locally, it is a good idea to take pictures of the codes you've
-                found!
+                locally, it is a good idea to take pictures of the codes
+                you&apos;ve found!
               </li>
             </ul>
             <p className="text-xs sm:text-sm text-gray-600 italic">
@@ -297,13 +297,13 @@ export default function Home() {
               Congratulations! 🎉
             </h2>
             <p className="text-sm sm:text-base text-gray-700">
-              Congratulations, treasure hunter! 🎉 You’ve cracked the codes,
-              solved the puzzles, and made it to the end! Your prize? Well…
-              absolutely nothing. For now. But if you’re curious about who
-              your secret admirer is (and let’s be real, who wouldn’t be?),
-              you’ve got all the pieces you need to figure it out. So put on
-              your detective hat, grab a magnifying glass, and get to searching!
-              The mystery is yours to solve. 🕵️‍♀️✨
+              Congratulations, treasure hunter! 🎉 You&apos;ve cracked the
+              codes, solved the puzzles, and made it to the end! Your prize?
+              Well… absolutely nothing. For now. But if you&apos;re curious
+              about who your secret admirer is (and let&apos;s be real, who
+              wouldn&apos;t be?), you&apos;ve got all the pieces you need to
+              figure it out. So put on your detective hat, grab a magnifying
+              glass, and get to searching! The mystery is yours to solve. 🕵️‍♀️✨
             </p>
 
             <FoundCodes
@@ -326,13 +326,14 @@ export default function Home() {
             </h3>
             <p className="text-gray-700">
               Are you sure you want to give up? Like, 100% sure-sure? Because
-              this is it—no take-backs, no do-overs, no ‘oops, I changed my
-              mind!’ Once you click that button, it’s game over. 🚫🔄 But hey,
-              no pressure! (Okay, maybe a little pressure.) So… what’ll it be?
-              Brave adventurer or… well, not? Choose wisely! ✨
+              this is it—no take-backs, no do-overs, no &apos;oops, I changed my
+              mind!&apos; Once you click that button, it&apos;s game over. 🚫🔄
+              But hey, no pressure! (Okay, maybe a little pressure.) So…
+              what&apos;ll it be? Brave adventurer or… well, not? Choose wisely!
+              ✨
               <br />
               <span className="text-sm italic mt-2 block">
-                (Like, for real. You won't be able to try again!)
+                (Like, for real. You won&apos;t be able to try again!)
               </span>
             </p>
             <div className="flex gap-3">
@@ -340,7 +341,7 @@ export default function Home() {
                 onClick={confirmAbort}
                 className="flex-1 bg-pink-600 text-white py-2 rounded-lg hover:bg-pink-700 transition-colors"
               >
-                Yes, I'm Sure
+                Yes, I&apos;m Sure
               </button>
               <button
                 onClick={cancelAbort}
@@ -357,7 +358,7 @@ export default function Home() {
         className={`max-w-md w-full bg-white rounded-xl shadow-lg p-4 sm:p-8 mx-2 ${getTransitionClasses()}`}
       >
         <h1 className="text-2xl sm:text-3xl font-bold text-center text-pink-600 mb-4 sm:mb-8">
-          Valentine's Treasure Hunt 💝
+          Valentine&apos;s Treasure Hunt 💝
         </h1>
 
         {!isComplete ? (
@@ -405,7 +406,7 @@ export default function Home() {
               onClick={handleAbortAttempt}
               className="w-full mt-4 text-xs sm:text-sm text-gray-500 hover:text-gray-700"
             >
-              Need to stop? (No judgement, we've been there!)
+              Need to stop? (No judgement, we&apos;ve been there!)
             </button>
           </>
         ) : (
@@ -414,13 +415,13 @@ export default function Home() {
               Congratulations! 🎉
             </h2>
             <p className="text-sm sm:text-base text-gray-700">
-              Congratulations, treasure hunter! 🎉 You’ve cracked the codes,
-              solved the puzzles, and made it to the end! Your prize? Well…
-              absolutely nothing. For now. But if you’re curious about who
-              your secret admirer is (and let’s be real, who wouldn’t be?),
-              you’ve got all the pieces you need to figure it out. So put on
-              your detective hat, grab a magnifying glass, and get to searching!
-              The mystery is yours to solve. 🕵️‍♀️✨
+              Congratulations, treasure hunter! 🎉 You&apos;ve cracked the
+              codes, solved the puzzles, and made it to the end! Your prize?
+              Well… absolutely nothing. For now. But if you&apos;re curious
+              about who your secret admirer is (and let&apos;s be real, who
+              wouldn&apos;t be?), you&apos;ve got all the pieces you need to
+              figure it out. So put on your detective hat, grab a magnifying
+              glass, and get to searching! The mystery is yours to solve. 🕵️‍♀️✨
             </p>
           </div>
         )}
