@@ -297,11 +297,13 @@ export default function Home() {
               Congratulations! 🎉
             </h2>
             <p className="text-sm sm:text-base text-gray-700">
-              You've completed the Valentine's treasure hunt!
-              <br />
-              Your love has guided you through each clue,
-              <br />
-              Now here's my heart, forever true! ❤️
+              Congratulations, treasure hunter! 🎉 You’ve cracked the codes,
+              solved the puzzles, and made it to the end! Your prize? Well…
+              absolutely nothing. For now. But if you’re curious about who
+              your secret admirer is (and let’s be real, who wouldn’t be?),
+              you’ve got all the pieces you need to figure it out. So put on
+              your detective hat, grab a magnifying glass, and get to searching!
+              The mystery is yours to solve. 🕵️‍♀️✨
             </p>
 
             <FoundCodes
@@ -414,7 +416,7 @@ export default function Home() {
             <p className="text-sm sm:text-base text-gray-700">
               Congratulations, treasure hunter! 🎉 You’ve cracked the codes,
               solved the puzzles, and made it to the end! Your prize? Well…
-              absolutely nothing. For now. 😉 But if you’re curious about who
+              absolutely nothing. For now. But if you’re curious about who
               your secret admirer is (and let’s be real, who wouldn’t be?),
               you’ve got all the pieces you need to figure it out. So put on
               your detective hat, grab a magnifying glass, and get to searching!
