@@ -14,7 +14,19 @@ const gameData = {
     process.env.NEXT_PUBLIC_CODE_3 || "",
     process.env.NEXT_PUBLIC_CODE_4 || "",
   ],
+  alternativeCodes: [
+    process.env.NEXT_PUBLIC_ALT_CODE_1 || "",
+    process.env.NEXT_PUBLIC_ALT_CODE_2 || "",
+    process.env.NEXT_PUBLIC_ALT_CODE_3 || "",
+    process.env.NEXT_PUBLIC_ALT_CODE_4 || "",
+  ],
 };
+
+const DISCLAIMER = `In case the codes are playing a little game of hide-and-seek 🕵️‍♀️✨ (they can be sneaky like that!), start by hunting for the original ones—they're your golden ticket! But if they've wandered off or are feeling shy, no worries—you've got a backup plan.
+
+Your secret weapon? Alternative codes that are either 1 or 2 digits or 4 letters long. Think of it like a puzzle made just for you—because you're the kind of person who can turn a little mystery into a whole lot of fun. 🔍
+
+Ready to outsmart those sneaky codes and claim your treasure? Let's go, adventurer! 🌟🗝️`;
 
 const FoundCodes = ({
   currentLevel,
@@ -128,8 +140,9 @@ export default function Home() {
   const checkCode = () => {
     const submittedCode = inputCode.trim();
     const correctCode = gameData.codes[currentLevel];
+    const alternativeCode = gameData.alternativeCodes[currentLevel];
 
-    if (submittedCode === correctCode) {
+    if (submittedCode === correctCode || submittedCode === alternativeCode) {
       if (currentLevel === gameData.codes.length - 1) {
         setStageTransition("leaving");
         setTimeout(() => {
@@ -377,6 +390,12 @@ export default function Home() {
             >
               <p className="text-sm sm:text-base text-gray-800 whitespace-pre-line text-center">
                 {gameData.clues[currentLevel]}
+              </p>
+            </div>
+
+            <div className="bg-pink-50/50 p-4 sm:p-6 rounded-lg mb-4 sm:mb-6 border border-pink-100">
+              <p className="text-xs sm:text-sm text-gray-600 whitespace-pre-line text-center italic">
+                {DISCLAIMER}
               </p>
             </div>
 
